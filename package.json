@@ -1,6 +1,6 @@
 {
   "name": "contentful-typescript-generator",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Used to generate typescript models from your Contentful environment",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -15,7 +15,9 @@
       "default": "./dist/index.mjs"
     }
   },
-  "bin": "./dist/index.js",
+  "bin": {
+    "contentful-typescript-generator": "dist/index.js"
+  },
   "scripts": {
     "build": "pkgroll",
     "test": "vitest run"
