@@ -1,0 +1,47 @@
+{
+  "name": "contentful-typescript-generator",
+  "version": "0.1.0",
+  "description": "Used to generate typescript models from your Contentful environment",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    "require": {
+      "default": "./dist/index.cjs",
+      "types": "./dist/index.d.cts"
+    },
+    "import": {
+      "default": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
+    }
+  },
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "pkgroll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kojo-Agyemang/contentful-typescript-generator.git"
+  },
+  "keywords": [
+    "Contentful",
+    "Typescript"
+  ],
+  "author": "kagyemang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kojo-Agyemang/contentful-typescript-generator/issues"
+  },
+  "homepage": "https://github.com/Kojo-Agyemang/contentful-typescript-generator#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "pkgroll": "^2.13.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/yargs": "^17.0.33",
+    "contentful-management": "^11.54.1",
+    "yargs": "^18.0.0"
+  }
+}
