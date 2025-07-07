@@ -1,6 +1,6 @@
 {
   "name": "contentful-typescript-generator",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "Used to generate typescript models from your Contentful environment",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
